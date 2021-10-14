@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,500;0,700;0,800;0,900;1,500;1,700;1,800;1,900&display=swap");
+/*VARIABLES*/
+:root {
+  /*PRIMARY COLORS*/
+  --Pale-blue: hsl(225, 100%, 94%);
+  --Bright-blue: hsl(245, 75%, 52%);
+  /*NEUTRAL COLORS*/
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Desaturated-blue: hsl(224, 23%, 55%);
+  --Dark-blue: hsl(223, 47%, 23%);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Red Hat Display", Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  background-image: url(./images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--Pale-blue);
+  position: relative;
+}
+p {
+  font-size: 16px;
+  color: var(--Desaturated-blue);
+}
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 450px;
+  border-radius: 20px;
+  background-color: #ffff;
+  box-shadow: 6px 6px 14px -5px rgba(16, 4, 116, 0.73);
+  overflow: hidden;
+}
+.hero {
+  margin: 30px;
+  text-align: center;
+}
+h1.title {
+  padding: 20px;
+  color: var(--Dark-blue);
+  font-weight: 700;
+}
+p.subtitle {
+  padding: 20px;
+  line-height: 1.6;
+}
+.plan {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+  background-color: var(--Very-pale-blue);
+}
+.plan img {
+  height: 60px;
+}
+.left-plan {
+  margin-left: -90px;
+}
+.left-plan p {
+  color: var(--Desaturated-blue);
+}
+.plan a {
+  font-weight: 600;
+}
+.plan a:hover {
+  color: var(--Desaturated-blue);
+}
+
+.btn {
+  margin: 10px 0;
+  font-size: 17px;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  font-weight: 700;
+  cursor: pointer;
+  border-style: none;
+  justify-content: space-between;
+}
+.btn-proceed {
+  box-shadow: 6px 6px 14px -5px rgba(16, 4, 116, 0.73);
+  background-color: var(--Bright-blue);
+  color: var(--Very-pale-blue);
+}
+.btn-proceed:hover {
+  background-color: var(--Desaturated-blue);
+}
+.btn-cancel {
+  background-color: white;
+  color: var(--Desaturated-blue);
+}
+.btn-cancel:hover {
+  color: var(--Dark-blue);
+}
+
+/* - Mobile: 375px
+- Desktop: 1440px */
