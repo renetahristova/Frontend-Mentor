@@ -101,6 +101,17 @@ p.subtitle {
 .btn-cancel:hover {
   color: var(--Dark-blue);
 }
+footer {
+  margin: 30px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
 
 /* - Mobile: 375px
 - Desktop: 1440px */
+@media only screen and (min-width: 375px) {
+  body {
+    background-image: url(./images/pattern-background-desktop.svg);
+  }
+}
