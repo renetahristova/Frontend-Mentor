@@ -2,6 +2,10 @@
 
 ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
 
+### Screenshot
+
+![](./images/screenshot.png)
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
@@ -54,27 +58,3 @@ As mentioned above, there are many ways to host your project for free. Our recom
 - [Netlify](https://www.netlify.com/)
 
 You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
-
-# Frontend Mentor - Order summary card solution
-
-This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
-
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
-## Overview
-
-### The challenge
-
-Users should be able to:
-
-- See hover states for interactive elements
-
-### Screenshot
-
-![](./images/screenshot.png)
