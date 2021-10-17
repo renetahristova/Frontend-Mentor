@@ -18,3 +18,56 @@ body {
   font-family: "Space Mono", Arial, Helvetica, sans-serif;
   background-color: var(--Light-grayish-cyan);
 }
+.logo {
+  margin: auto;
+  padding: 30px;
+  display: block;
+}
+.white-container {
+  padding: 20px;
+  background-color: var(--White);
+  border-radius: 30px;
+}
+h3 {
+  color: var(--Dark-grayish);
+}
+input {
+  padding: 8px;
+  background-color: var(--Light-grayish);
+  border-radius: 5px;
+  border-style: none;
+  width: 90%;
+}
+
+.btn {
+  padding: 7px 30px;
+  border-style: none;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 17px;
+}
+.btn-tip {
+  background-color: var(--Very-dark-cyan);
+  color: var(--White);
+}
+.btn-custom {
+  background-color: var(--Light-grayish);
+  color: var(--Dark-grayish-cyan);
+}
+.result-container {
+  padding: 20px;
+  background-color: var(--Very-dark-cyan);
+  border-radius: 10px;
+}
+.result-container h4 {
+  color: var(--Light-grayish);
+}
+.result-container h5 {
+  color: var(--Dark-grayish);
+}
+.btn-reset {
+  width: 100%;
+  background-color: var(--Strong-cyan);
+  text-transform: uppercase;
+  color: var(--Very-dark-cyan);
+}
