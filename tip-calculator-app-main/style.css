@@ -38,7 +38,11 @@ input {
   border-style: none;
   width: 90%;
 }
-
+#bill-input {
+  background-image: url(./images/icon-dollar.svg);
+  background-repeat: no-repeat;
+  background-position: initial;
+}
 .btn {
   padding: 7px 30px;
   border-style: none;
@@ -58,7 +62,9 @@ input {
   padding: 20px;
   background-color: var(--Very-dark-cyan);
   border-radius: 10px;
+  line-height: 0;
 }
+
 .result-container h4 {
   color: var(--Light-grayish);
 }
