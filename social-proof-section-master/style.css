@@ -72,6 +72,41 @@ header {
   color: var(--VeryDarkMagenta);
   font-weight: 700;
 }
+.feedback-cards {
+  margin: 250px;
+}
+.feedback {
+  padding: 20px;
+  display: inline-block;
+  width: 450px;
+  border-radius: 10px;
+  background-color: var(--VeryDarkMagenta);
+}
+.top-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
 
+.top-card img {
+  margin: 0 20px 40px 0;
+  border-radius: 50%;
+}
+
+.feedback h3,
+p {
+  color: var(--White);
+}
+.feedback h4 {
+  color: var(--SoftPink);
+}
+
+footer {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
 /* - Mobile: 375px
 - Desktop: 1440px */
