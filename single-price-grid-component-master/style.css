@@ -19,7 +19,9 @@ body {
   --Light-Gray: hsl(204, 43%, 93%);
   --Grayish-Blue: hsl(218, 22%, 67%);
 }
-
+.card {
+  margin: 10% 30%;
+}
 /* JOIN US */
 .join-us {
   background-color: white;
@@ -67,6 +69,32 @@ body {
   border-radius: 5px;
   background-color: var(--Bright-Yellow);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* WHY US */
+.why-us {
+  padding: 1.5rem;
+  font-size: 1rem;
+  background-color: hsl(179, 48%, 51%);
+}
+.why-us h3 {
+  margin-bottom: 1rem;
+}
+.why-us li {
+  list-style-type: none;
+  line-height: 1.5rem;
+  font-size: 0.9rem;
+}
+@media only screen and (min-width: 375px) {
+  .card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+  }
+
+  .join-us {
+    grid-column: 1 / 3;
+  }
 }
 /* - Mobile: 375px
 - Desktop: 1440px */
