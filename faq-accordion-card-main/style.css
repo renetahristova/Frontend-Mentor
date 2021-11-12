@@ -24,4 +24,44 @@ body {
   padding: 0;
   font-size: 12px;
   font-family: "Kumbh Sans", sans-serif;
+  background: linear-gradient(171deg, var(--Soft-violet), var(--Soft-blue));
+}
+.wrapper {
+  padding: 30px;
+  background-color: #ffff;
+  margin: 150px auto;
+  border: 1px solid black;
+  width: 400px;
+  border-radius: 30px;
+}
+.woman-img {
+  width: 300px;
+  position: absolute;
+  top: 15px;
+  left: 90px;
+  display: none;
+}
+.faq {
+  margin: 30px;
+  text-align: center;
+  font-size: 2rem;
+}
+.accordion {
+  background-color: #ffff;
+  color: black;
+  font-size: 13px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  border: none;
+}
+.arrow-img {
+ left: 0;
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  /* display: none; */
+  border-bottom: 1px solid black;
+  overflow: hidden;
 }
