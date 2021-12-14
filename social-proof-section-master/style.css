@@ -95,7 +95,10 @@ p {
   color: var(--SoftPink);
   font-weight: 400;
 }
-
+footer {
+  margin: 3rem;
+  text-align: center;
+}
 @media only screen and (min-width: 1100px) {
   header {
     margin: 5.5rem;
