@@ -148,7 +148,7 @@ footer {
   .feedback-cards {
     margin: 0 10rem;
     display: flex;
-    gap: 1.7rem;
+    gap: 2rem;
   }
   .sec {
     margin-top: 15rem;
