@@ -35,11 +35,14 @@ p {
   border-radius: 20px;
   background-color: #ffff;
   box-shadow: 6px 6px 14px -5px rgba(16, 4, 116, 0.73);
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .hero {
   margin: 30px;
   text-align: center;
+}
+.header-image img {
+  border-radius: 20px 20px 0 0;
 }
 h1.title {
   padding: 20px;
