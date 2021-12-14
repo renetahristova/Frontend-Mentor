@@ -1,5 +1,7 @@
 # Frontend Mentor - Order summary card
 
+https://renetahristova.github.io/Frontend-Mentor/order-summary-component-main/
+
 ### Screenshot
 
 ![](./images/screenshot.png)
