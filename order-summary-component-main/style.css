@@ -16,24 +16,22 @@
 }
 body {
   font-family: "Red Hat Display", Arial, Helvetica, sans-serif;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   background-image: url(./images/pattern-background-mobile.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--Pale-blue);
-  position: relative;
+  /* position: relative; */
 }
 p {
   font-size: 16px;
   color: var(--Desaturated-blue);
 }
 .container {
+  margin: auto;
+  margin-top: 100px;
   margin-bottom: 50px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 450px;
+  width: 450px;
   border-radius: 20px;
   background-color: #ffff;
   box-shadow: 6px 6px 14px -5px rgba(16, 4, 116, 0.73);
@@ -101,12 +99,6 @@ p.subtitle {
 }
 .btn-cancel:hover {
   color: var(--Dark-blue);
-}
-footer {
-  margin: 30px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
 }
 
 /* - Mobile: 375px
