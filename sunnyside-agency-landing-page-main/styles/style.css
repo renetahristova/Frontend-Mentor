@@ -53,4 +53,54 @@ header {
   margin-top: 3.5rem;
   text-align: center;
 }
+
+.main__image {
+  width: 100%;
+}
+
+.main__info {
+  padding: 4rem;
+  background-color: white;
+  text-align: center;
+}
+
+.main__header {
+  font-family: "Fraunces", serif;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: 900;
+}
+
+.main__text {
+  color: #818498;
+  line-height: 1.6rem;
+  margin-bottom: 1.5rem;
+}
+
+.main__more {
+  font-family: "Fraunces", serif;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.main__decoration {
+  background-color: #fad400;
+  margin: auto;
+  width: 35%;
+  height: 0.7rem;
+  -webkit-transform: translateY(-0.7rem);
+          transform: translateY(-0.7rem);
+  z-index: -1;
+  border-radius: 0.5rem;
+  opacity: 0.2;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.main__image {
+  background-image: url("../images/mobile/image-graphic-design.jpg");
+}
 /*# sourceMappingURL=style.css.map */
