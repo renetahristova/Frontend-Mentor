@@ -100,7 +100,9 @@ p.subtitle {
 .btn-cancel:hover {
   color: var(--Dark-blue);
 }
-
+footer {
+  margin: 5px;
+}
 /* - Mobile: 375px
 - Desktop: 1440px */
 @media only screen and (min-width: 375px) {
