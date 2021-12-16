@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 5rem 0;
+  background-color: hsl(233, 47%, 7%);
+  font-family: Inter;
+  color: white;
+  font-size: 15px;
+}
+.img-sec {
+  height: 20rem;
+  background-color: hsl(277, 64%, 61%);
+  background-blend-mode: multiply;
+  /* filter: opacity(0.3); */
+  border-radius: 10px 10px 0px 0px;
+  background-image: url("./images/image-header-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card {
+  margin: auto;
+  max-width: 24rem;
+  border-radius: 10px;
+  background-color: hsl(244, 38%, 16%);
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+}
+.inner-card {
+  padding: 3rem;
+  line-height: 2rem;
+}
+.header {
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding-bottom: 1rem;
+}
+#insights-color {
+  color: hsl(277, 64%, 61%);
+}
+.main-text {
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 20px;
+  padding-top: 0;
+  line-height: 1.6;
+}
+.stats {
+  display: flex;
+  flex-direction: column;
+  color: hsl(0, 0%, 100%);
+  font-size: 20px;
+}
+.stats-span {
+  padding-bottom: 1rem;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-family: Lexend Deca;
+  font-size: 14px;
+  display: block;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.attribution {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+@media only screen and (min-width: 950px) {
+  .card {
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 60rem;
+    text-align: left;
+  }
+  .img-sec {
+    width: 100%;
+    height: 360px;
+    background-image: url("./images/image-header-desktop.jpg");
+    background-size: cover;
+    border-radius: 0 8px 8px 0;
+  }
+  .inner-card {
+    padding-bottom: 0;
+  }
+  .header {
+    padding-right: 4rem;
+  }
+  .main-text p {
+    padding: 0.5rem 5rem 2rem 0;
+  }
+  .stats {
+    flex-direction: row;
+    gap: 2.5rem;
+  }
+  .main-text {
+    padding: 0;
+  }
+}
