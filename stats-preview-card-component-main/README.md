@@ -1,7 +1,7 @@
 # Frontend Mentor - Stats preview card component
 
 https://renetahristova.github.io/Frontend-Mentor/stats-preview-card-component-main/
-![](./images/sreenshot.png)
+![](./images/screenshot.png)
 
 ![Design preview for the Stats preview card component coding challenge](./design/desktop-preview.jpg)
 
