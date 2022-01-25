@@ -30,3 +30,21 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+header {
+  background-color: var(--Very-light-red);
+}
+.navigation {
+  display: flex;
+  justify-content: space-around;
+}
+.navigation__dropdown-content {
+  display: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
