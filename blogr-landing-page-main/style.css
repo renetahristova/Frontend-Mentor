@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Ubuntu:ital,wght@0,300;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 :root {
   /* Primary */
 
@@ -29,6 +30,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
+  /* font-family: 'Ubuntu', sans-serif; */
 }
 header {
   background-color: var(--Very-light-red);
@@ -40,7 +43,15 @@ header {
 .navigation__dropdown-content {
   display: none;
 }
-
+/* HEADER */
+.hero {
+  text-align: center;
+}
+.hero__header {
+  color: var(--White);
+}
+/* HEADER END*/
+/* ATTRIBUTION */
 .attribution {
   font-size: 11px;
   text-align: center;
