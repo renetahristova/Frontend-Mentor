@@ -22,28 +22,26 @@ body {
   margin: auto;
   padding: 30px;
   display: block;
+  width: 4.5rem;
 }
 .white-container {
+  aspect-ratio: 1/0.5;
   margin: 2rem 25rem;
-  padding: 20px;
+  padding: 2rem;
   background-color: var(--White);
-  border-radius: 30px;
+  border-radius: 20px;
   display: flex;
+  flex-direction: row;
 }
 h3 {
   color: var(--Dark-grayish);
 }
-input {
-  padding: 8px;
-  background-color: var(--Light-grayish);
-  border-radius: 5px;
-  border-style: none;
-  width: 90%;
-}
-#bill-input {
-  background-image: url(./images/icon-dollar.svg);
-  background-repeat: no-repeat;
-  background-position: initial;
+.result-container {
+  padding: 2rem 1.5rem;
+  background-color: var(--Very-dark-cyan);
+  aspect-ratio: 1/1;
+  width: 48%;
+  border-radius: 20px;
 }
 .btn {
   padding: 7px 30px;
@@ -52,30 +50,11 @@ input {
   font-weight: 700;
   font-size: 17px;
 }
-.btn-tip {
-  background-color: var(--Very-dark-cyan);
-  color: var(--White);
-}
-.btn-custom {
-  background-color: var(--Light-grayish);
-  color: var(--Dark-grayish-cyan);
-}
-.result-container {
-  padding: 20px;
-  background-color: var(--Very-dark-cyan);
-  border-radius: 10px;
-  line-height: 0;
-}
 
-.result-container h4 {
-  color: var(--Light-grayish);
+.attribution {
+  font-size: 11px;
+  text-align: center;
 }
-.result-container h5 {
-  color: var(--Dark-grayish);
-}
-.btn-reset {
-  width: 100%;
-  background-color: var(--Strong-cyan);
-  text-transform: uppercase;
-  color: var(--Very-dark-cyan);
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
