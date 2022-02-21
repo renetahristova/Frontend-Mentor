@@ -32,16 +32,32 @@ body {
   border-radius: 20px;
   display: flex;
   flex-direction: row;
+  line-height: 1rem;
 }
 h3 {
   color: var(--Dark-grayish);
 }
+.tip-container,
+.number-container {
+  margin-top: 2.4rem;
+}
+
 .result-container {
   padding: 2rem 1.5rem;
   background-color: var(--Very-dark-cyan);
   aspect-ratio: 1/1;
   width: 48%;
   border-radius: 20px;
+}
+h3 {
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+input {
+  width: 84%;
+  height: 1.6rem;
+  border: none;
+  background-color: var(--Light-grayish);
 }
 .btn {
   padding: 7px 30px;
