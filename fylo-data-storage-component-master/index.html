@@ -11,29 +11,49 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
+    <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Fylo data storage component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
-    You’ve used 815 GB of your storage 185 GB Left 0 GB 1000 GB
+    <main>
+      <section class="logo-section">
+        <img src="./images/logo.svg" alt="logo" class="logo" />
+        <div class="icons">
+          <img src="./images/icon-document.svg" alt="document-icon" />
+          <img src="./images/icon-folder.svg" alt="folder-icon" />
+          <img src="./images/icon-upload.svg" alt="upload-icon" />
+        </div>
+      </section>
 
-    <div class="attribution">
+      <section class="info-section">
+        <p class="info-section-label"
+          >You’ve used <b>815 GB</b> of your storage</p
+        >
+        <div class="storage-bar">
+          <div class="storage-back">
+              <div class="storage-used">
+                <div class="circle-indicator">
+                </div>
+              </div>
+          </div>
+        
+          <div class="info-section-bottom">
+            <p>0 GB</p>
+            <p>1000 GB</p>
+          </div>
+      
+          <div class="card-info">
+            <b>185</b>
+            <span class="card-info-small">GB Left </span>
+          </div>
+        </section>
+    </main>
+    <footer class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by
       <a href="https://github.com/renetahristova">Reneta Hristova</a>.
-    </div>
+    </footer>
   </body>
 </html>
