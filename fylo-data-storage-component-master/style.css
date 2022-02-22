@@ -16,7 +16,7 @@
   box-sizing: border-box;
 }
 body {
-  width: 100%;
+  width: 100vw;
   height: 75vh;
   background-color: var(--Very-Dark-Blue);
   background-image: url("./images/bg-desktop.png");
@@ -138,9 +138,27 @@ main {
   color: var(--Grayish-Blue);
   align-self: center;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 750px) {
   body {
-    background-color: lightblue;
+    background-image: url("./images/bg-mobile.png");
+    background-size: cover;
+  }
+  main {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .info-section {
+    width: 20rem;
+    padding: 2rem;
+  }
+  .logo-section {
+    margin-right: 0;
+  }
+  .card-info {
+    position: inherit;
+    margin-left: 3rem;
   }
 }
 /* -----attribution----- */
