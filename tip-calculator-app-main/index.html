@@ -12,6 +12,11 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="style.css" />
+    <!-- ----FONTAWESOME---- -->
+    <script
+      src="https://kit.fontawesome.com/ec12af4cbc.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Frontend Mentor | Tip calculator app</title>
   </head>
   <body>
@@ -22,35 +27,57 @@
       <div class="left">
         <div class="bill-cotainer">
           <h3>Bill</h3>
-          <input type="number" id="bill-input" />
+          <div class="input">
+            <span>$</span>
+            <input
+              type="text"
+              name="bill"
+              id="bill"
+              placeholder="0"
+              class="text-field"
+            />
+          </div>
         </div>
 
         <div class="tip-container">
           <h3>Select Tip %</h3>
-          <button class="btn btn-tip">5%</button>
-          <button class="btn btn-tip">10%</button>
-          <button class="btn btn-tip">15%</button>
-          <button class="btn btn-tip">25%</button>
-          <button class="btn btn-tip">50%</button>
-          <button class="btn btn-custom">Custom</button>
+          <div class="tip-container-percent">
+            <button class="btn btn-tip">5%</button>
+            <button class="btn btn-tip">10%</button>
+            <button class="btn btn-tip">15%</button>
+            <button class="btn btn-tip">25%</button>
+            <button class="btn btn-tip">50%</button>
+            <button class="btn btn-custom">Custom</button>
+          </div>
         </div>
 
         <div class="number-container">
           <h3>Number of People</h3>
-          <input type="number" />
+          <p id="error-msg">Can't be zero</p>
+          <div class="input">
+            <span><i class="fas fa-user fa-xs" aria-hidden="true"></i></span>
+            <input
+              type="text"
+              name="people"
+              id="people"
+              class="text-field"
+              placeholder="0"
+            />
+          </div>
+          <!-- <input type="number" <i class="fa-solid fa-user"></i> /> -->
         </div>
       </div>
 
       <div class="result-container">
         <div class="amount-box">
           <h4>Tip Amound</h4>
-          <h5>/ person</h5>
+          <span>/ person</span>
           <p></p>
         </div>
 
         <div class="total-box">
           <h4>Total</h4>
-          <h5>/ person</h5>
+          <span>/ person</span>
           <p></p>
         </div>
         <button class="btn btn-reset">reset</button>
