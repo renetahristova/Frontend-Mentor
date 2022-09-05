@@ -140,12 +140,40 @@ input #custom {
 .result-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding: 2rem 1.5rem;
   /* aspect-ratio: 1/1; */
   min-width: 40%;
   border-radius: 20px;
   background-color: var(--Very-dark-cyan);
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper h4 {
+  margin-bottom: 10px;
+  font-family: "Space Mono", Arial;
+  color: var(--Light-grayish-cyan);
+}
+.wrapper span {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--Dark-grayish-cyan);
+}
+.wrapper p {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--Strong-cyan);
+}
+.btn-reset {
+  margin-top: 45px;
+
+  text-transform: uppercase;
+  padding: 13px;
+  background: var(--Strong-cyan);
+  color: var(--Very-dark-cyan);
 }
 .btn {
   padding: 7px 30px;
