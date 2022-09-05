@@ -110,7 +110,11 @@ input #custom {
 }
 
 .input span {
+  font-size: 15px;
   color: var(--Dark-grayish-cyan);
+}
+#dollar {
+  font-size: 20px;
 }
 .people {
   display: flex;
@@ -169,11 +173,13 @@ input #custom {
 }
 .btn-reset {
   margin-top: 45px;
-
   text-transform: uppercase;
   padding: 13px;
   background: var(--Strong-cyan);
   color: var(--Very-dark-cyan);
+}
+.btn-reset:hover {
+  background-color: var(--Light-grayish-cyan);
 }
 .btn {
   padding: 7px 30px;
