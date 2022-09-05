@@ -47,13 +47,23 @@
             <button class="btn btn-tip">15%</button>
             <button class="btn btn-tip">25%</button>
             <button class="btn btn-tip">50%</button>
-            <button class="btn btn-custom">Custom</button>
+            <button class="btn btn-custom">
+              <input
+                type="text"
+                name="custom"
+                id="custom"
+                placeholder="Custom"
+                class="text-field"
+              />
+            </button>
           </div>
         </div>
 
         <div class="number-container">
-          <h3>Number of People</h3>
-          <p id="error-msg">Can't be zero</p>
+          <div class="people">
+            <h3>Number of People</h3>
+            <p id="error-msg">Can't be zero</p>
+          </div>
           <div class="input">
             <span><i class="fas fa-user fa-xs" aria-hidden="true"></i></span>
             <input
