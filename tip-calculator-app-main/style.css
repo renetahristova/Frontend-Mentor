@@ -123,6 +123,19 @@ input #custom {
   font-weight: 700;
   visibility: hidden;
 }
+@media only screen and (max-width: 600px) {
+  .left {
+    margin-bottom: 35px;
+    width: 110%;
+  }
+  .white-container {
+    padding: 0.5rem 1rem;
+  }
+  h3,
+  #error-msg {
+    margin-top: 2rem;
+  }
+}
 /* ----GREEN CONTAIER---- */
 .result-container {
   display: flex;
