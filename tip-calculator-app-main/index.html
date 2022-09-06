@@ -17,6 +17,7 @@
       src="https://kit.fontawesome.com/ec12af4cbc.js"
       crossorigin="anonymous"
     ></script>
+    <!-- <script src="./script.js"></script> -->
     <title>Frontend Mentor | Tip calculator app</title>
   </head>
   <body>
@@ -27,7 +28,7 @@
       <div class="left">
         <div class="bill-cotainer">
           <h3>Bill</h3>
-          <div class="input">
+          <div class="input input-bill">
             <span id="dollar">$</span>
             <input
               type="text"
@@ -42,11 +43,11 @@
         <div class="tip-container">
           <h3>Select Tip %</h3>
           <div class="tip-container-percent">
-            <button class="btn btn-tip">5%</button>
-            <button class="btn btn-tip">10%</button>
-            <button class="btn btn-tip">15%</button>
-            <button class="btn btn-tip">25%</button>
-            <button class="btn btn-tip">50%</button>
+            <button class="btn btn-tip five">5%</button>
+            <button class="btn btn-tip ten">10%</button>
+            <button class="btn btn-tip fifteen">15%</button>
+            <button class="btn btn-tip twentyfive">25%</button>
+            <button class="btn btn-tip fifty">50%</button>
             <button class="btn btn-custom">
               <input
                 type="text"
@@ -64,7 +65,7 @@
             <h3>Number of People</h3>
             <p id="error-msg">Can't be zero</p>
           </div>
-          <div class="input">
+          <div class="input input-people">
             <span><i class="fas fa-user fa-xs" aria-hidden="true"></i></span>
             <input
               type="text"
@@ -84,7 +85,7 @@
             <h4>Tip Amound</h4>
             <span>/ person</span>
           </div>
-          <p>$00.00</p>
+          <p id="amound-p">$00.00</p>
         </div>
         <div class="wrapper">
           <div class="total-box">
@@ -104,5 +105,6 @@
       >. Coded by
       <a href="https://github.com/renetahristova">Reneta Hristova</a>.
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
