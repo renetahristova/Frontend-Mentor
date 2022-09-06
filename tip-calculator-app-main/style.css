@@ -73,7 +73,9 @@ input #custom {
   color: var(--Dark-grayish);
   background-color: var(--Light-grayish);
 }
-
+.input:hover {
+  border: 2px solid var(--Strong-cyan);
+}
 .tip-container-percent .btn-custom:hover,
 input #custom {
   border: 2px solid var(--Strong-cyan);
