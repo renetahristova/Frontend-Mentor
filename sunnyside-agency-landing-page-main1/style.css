@@ -148,6 +148,13 @@ header .logo {
     padding-top: 8rem;
   }
 }
+/* ------------MAIN--------- */
+.brand-transform {
+  display: flex;
+}
+.brand-transform_info {
+  background-color: rgb(248, 242, 242);
+}
 .attribution {
   font-size: 11px;
   text-align: center;
