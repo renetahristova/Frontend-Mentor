@@ -19,6 +19,8 @@ let amoundElement = document.querySelector("#amound-p");
 let totalElement = document.querySelector("#total-p");
 // reset
 let resetBtnElement = document.querySelector(".btn-reset");
+//error
+let errorrMsgElement = document.querySelector("#error-msg");
 
 const resetFunction = resetBtnElement.addEventListener("click", (e) => {
   e.preventDefault();
@@ -27,6 +29,35 @@ const resetFunction = resetBtnElement.addEventListener("click", (e) => {
   customInputElement.value = "";
   amoundElement.textContent = "$00.00";
   totalElement.textContent = "$00.00";
-
-  console.log("np");
 });
+// ---ERROR---
+const displayError = function () {
+  errorrMsgElement.style.visibility = "visible";
+};
+const hideError = function () {
+  errorrMsgElement.style.visibility = "hidden";
+};
+
+billInput.addEventListener("input", (e) => {
+  let billValue = e.target.value;
+  console.log(billValue);
+});
+numberOfPeopleElement.addEventListener("input", (e) => {
+  let peopleValue = e.target.value;
+  console.log(peopleValue);
+});
+customInputElement.addEventListener("input", (e) => {
+  let customValue = e.target.value;
+  console.log(customValue);
+});
+
+let buttons = document.querySelectorAll(".select-tip");
+console.log(buttons);
+buttons.forEach((btn) => {
+  console.log(btn);
+  btn.addEventListener("click", function () {
+    let prc = this.value;
+    console.log(prc);
+  });
+});
+//to do: calculate function
