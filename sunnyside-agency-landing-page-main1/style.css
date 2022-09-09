@@ -153,6 +153,7 @@ header .logo {
 .stand-out {
   background-color: rgb(243, 236, 236);
   display: flex;
+  /* flex-wrap: wrap; */
 }
 .brand-transform_info,
 .stand-out_info {
@@ -240,6 +241,37 @@ header .logo {
 .photography_in h2,
 .photography_in p {
   color: var(--Dark-blue);
+}
+/* @media only screen and(max-width:800px) {
+  .brand-transform {
+    width: 100%;
+    flex-direction: column;
+  }
+} */
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+}
+.testimonials img {
+  width: 100px;
+  border-radius: 50%;
+}
+.testimonials div {
+  /* min-width: 20%; */
+  margin: 6rem;
+  text-align: center;
+}
+.testimonials p {
+  margin: 2rem 0;
+}
+.gallery {
+  /* min-width: 100%; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 25%;
 }
 .attribution {
   font-size: 11px;
