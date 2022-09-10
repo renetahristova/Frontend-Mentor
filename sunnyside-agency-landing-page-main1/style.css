@@ -234,6 +234,17 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.graphic-design h2,
+.photography h2 {
+  font-size: 30px;
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+}
+.photography p,
+.graphic-design p {
+  font-weight: 600;
+  line-height: 25px;
+}
 .graphic-design_in h2,
 .graphic-design_in p {
   color: var(--Dark-desaturated-cyan);
@@ -242,12 +253,61 @@ li {
 .photography_in p {
   color: var(--Dark-blue);
 }
+
+.client-testimonials {
+  margin-top: 10rem;
+  color: var(--Grayish-blue);
+  text-align: center;
+  font-family: Fraunces;
+}
+.testimonials {
+  display: flex;
+  justify-content: center;
+}
+.testimonials img {
+  width: 80px;
+  border-radius: 50%;
+}
+.testimonials div {
+  margin: 6rem;
+  text-align: center;
+  color: var(--Dark-blue);
+}
+.testimonials p {
+  margin: 2rem 0;
+  font-weight: 600;
+  line-height: 30px;
+}
+.name {
+  width: 35%;
+  margin: auto;
+}
+.name h3 {
+  font-family: Fraunces;
+  font-size: 20px;
+}
+.name h4 {
+  color: var(--Grayish-blue);
+  font-size: 15px;
+}
+.gallery {
+  /* min-width: 100%; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 25%;
+}
 @media (max-width: 1000px) {
   .brand-transform,
   .stand-out,
   .gr-ph {
     flex-direction: column;
     align-items: center;
+  }
+  .gr_ph p {
+    padding: 2rem 20rem;
   }
   .brand-transform {
     flex-direction: column-reverse;
@@ -263,34 +323,22 @@ li {
     /* width: 50%; */
   }
   .graphic-design,
-  .photography {
+  .photography,
+  .gr-ph {
     width: 100%;
   }
-}
-.testimonials {
-  display: flex;
-  /* flex-wrap: wrap; */
-}
-.testimonials img {
-  width: 100px;
-  border-radius: 50%;
-}
-.testimonials div {
-  /* min-width: 20%; */
-  margin: 6rem;
-  text-align: center;
-}
-.testimonials p {
-  margin: 2rem 0;
-}
-.gallery {
-  /* min-width: 100%; */
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.gallery img {
-  width: 25%;
+  .testimonials {
+    flex-direction: column;
+  }
+  .testimonials div {
+    margin: 2rem 10rem;
+  }
+  .client-testimonials {
+    margin: 5rem;
+  }
+  .name {
+    width: 27%;
+  }
 }
 .footer {
   align-items: center;
